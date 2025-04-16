@@ -1,0 +1,46 @@
+/* Import a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Element selector: Style the h1 */
+h1 {
+    color: #2c3e50; /* Dark blue color */
+    font-family: 'Roboto', sans-serif; /* Custom font */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Class selector: Style the paragraph with class 'intro-text' */
+.intro-text {
+    color: #34495e; /* Slightly lighter blue */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6; /* Improve readability */
+    margin: 0 auto; /* Center the paragraph */
+    padding: 10px;
+    max-width: 600px;
+}
+
+/* ID selector: Style the image with ID 'featured-image' */
+#featured-image {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    padding: 10px;
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 500px;
+}
+
+/* Class selector: Style the div with class 'content-box' */
+.content-box {
+    background-color: #ecf0f1; /* Light gray background */
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #bdc3c7; /* Gray border */
+    border-radius: 5px;
+    max-width: 500px;
+    text-align: center;
+}
